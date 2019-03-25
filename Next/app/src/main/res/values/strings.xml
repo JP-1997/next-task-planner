@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NEXT>></string>
+    <string name="about">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cleaning">Cleaning...</string>
+    <string name="add_todo_item">Add task</string>
+    <string name="add_todo_item_hint">Insert your task here</string>
+    <string name="empty_input">Don\'t leave your task empty</string>
+    <string name="reminder_or_not">Set a reminder for me</string>
+    <string name="set_date">Set Date</string>
+    <string name="set_time">Set Time</string>
+    <string name="reminder_set_at">Reminder set at</string>
+    <string name="reminder_info">Info about reminder:</string>
+    <string name="not_found">Not found!</string>
+    <string name="item_deleted">Task deleted!</string>
+    <string name="time_error">Please specify a time</string>
+    <string name="time_error_purpose">A specific time is better for proper notification</string>
+    <string name="task_to_be_done">Task to be done</string>
+    <string name="detail">Detail</string>
+    <string name="clean_all_done">Clean done tasks</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="made_by">Author: Jyoti Prakash Lenka</string>
+    <string name="contact_me">You can contact me at</string>
+    <string name="support_me">Support me at</string>
+    <string name="my_email">jyotiprakash.jpl.99@gmail.com</string>
+    <string name="github_acc">github.com/jp1997</string>
+    <string name="twitter_acc">twitter.com/jp1997</string>
+    <string name="facebook_acc">facebook.com/jp1997</string>
+    <string name="patreon_acc">patreon.com/jp1997</string>
+    <string name="paypal_acc">paypal.me/jp1997</string>
+</resources>

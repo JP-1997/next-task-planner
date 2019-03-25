@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="jyotiprakash.com.next">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/device"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Launcher">
+        <activity android:name="jyotiprakash.com.next.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="jyotiprakash.com.next.AddTodoItem"
+            android:parentActivityName="jyotiprakash.com.next.MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jyotiprakash.com.next.MainActivity"/>
+        </activity>
+        <activity
+            android:name="jyotiprakash.com.next.DetailTodoItem"
+            android:parentActivityName="jyotiprakash.com.next.MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jyotiprakash.com.next.MainActivity"/>
+        </activity>
+
+        <receiver android:name="jyotiprakash.com.next.Utils.NotificationPublisher"/>
+
+        <activity android:name="jyotiprakash.com.next.AboutActivity"
+                  android:parentActivityName="jyotiprakash.com.next.MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jyotiprakash.com.next.MainActivity"/>
+        </activity>
+    </application>
+
+</manifest>
